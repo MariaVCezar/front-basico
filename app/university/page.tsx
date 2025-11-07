@@ -1,6 +1,6 @@
 export default async function university() {
 
-    const response = await fetch("https://690d2daaa6d92d83e850b3f1.mockapi.io/university")
+    const response = await fetch("https://690d4089a6d92d83e850e774.mockapi.io/principal")
 
     const listUniversity = await response.json();
 
